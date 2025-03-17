@@ -1,0 +1,28 @@
+.navbar {
+  background-color: var(--dark);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  padding: 1rem;
+  background-color: white;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.navbar-list li a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-list li a:hover {
+  color: var(--gold);
+  text-shadow: 0 0 4px var(--gold);
+}

@@ -1,0 +1,35 @@
+/* client/src/pages/LoginPage.css */
+
+.login-container {
+  position: relative;
+  z-index: 2;
+  margin-top: 4rem;
+  text-align: center;
+  color: var(--white);
+}
+
+.login-title {
+  color: var(--red);
+  font-family: "Cinzel", serif;
+  margin-bottom: 1rem;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 1rem auto;
+  text-align: left;
+}
+
+.login-form label {
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.login-form input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
